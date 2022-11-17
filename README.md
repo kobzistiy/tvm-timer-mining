@@ -22,7 +22,10 @@ npm run server
 
 ### Customize configuration
 
-setup config.json
---profit - the address to which the rewards will be sent
---codeHash - hash code of the contract TimerManager
---endpoint - endpoint of the network where the script is running
+*setup config.json*
+
+- profit - the address to which the rewards will be sent
+
+- codeHash - hash code of the contract TimerManager
+
+- endpoint - endpoint of the network where the script is running
