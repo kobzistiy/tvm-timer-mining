@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Contract, Signer } from "locklift";
+import { Contract, Signer, zeroAddress } from "locklift";
 import { FactorySource } from "../build/factorySource";
 const Config = require("../utils/config.js");  
 
@@ -36,6 +36,7 @@ describe("Test contract", async function () {
         publicKey: signer.publicKey,
         initParams: {
           _nonce: locklift.utils.getRandomNonce(),
+          _owner: zeroAddress
         },
         constructorParams: {
         },

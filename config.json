@@ -1,5 +1,5 @@
 {
- "codeHash": "2b0694d13aa642dfc8b0c0edd7f1676fd6ba74399e43ca74d944b045d1b33b19",
+ "codeHash": "d6a291aa11620126429bbf684e836ce63259f3fc6147c1722b8723f68dd22161",
  "profit": "0:2222222222222222222222222222222222222222222222222222222222222222",
- "endpoint": "http://localhost/graphql",
+ "endpoint": "http://localhost/graphql"
 }

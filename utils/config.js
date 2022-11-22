@@ -18,8 +18,8 @@ const readConf = () => {
   try {
     let rawdata = fs.readFileSync(CONFIG_PATH);
     data = JSON.parse(rawdata);
-  } catch {err} {
-    
+  } catch (err) {
+    console.log(err)
   }
   return data
 };
